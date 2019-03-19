@@ -1,0 +1,27 @@
+@font-face {
+    font-family: "BebasNeue";
+    src: url(../font/BebasNeueRegular.otf);
+}
+
+:root{
+    --color-mine: rgb(92, 151, 228);
+}
+.text-mine {
+    color: var(--color-mine);
+    font-family: "BebasNeue";
+    font-weight: bold;
+    text-transform: uppercase;
+}
+.bg-mine {
+    background-color: var(--color-mine);
+}
+.trabalho {
+    padding: 0;
+}
+.lista li{
+    background-color: var(--color-mine);
+    color: white;
+    padding: 5px;
+    border-radius: 5px;
+    margin: 0 5px;
+}
