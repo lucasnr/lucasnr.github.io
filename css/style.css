@@ -2,26 +2,67 @@
     font-family: "BebasNeue";
     src: url(../font/BebasNeueRegular.otf);
 }
-
-:root{
-    --color-mine: rgb(92, 151, 228);
+@font-face {
+    font-family: "Eina";
+    src: url(../font/Eina.ttf);
 }
-.text-mine {
-    color: var(--color-mine);
+:root{
+    --color-primaria: rgb(92, 151, 228);
+}
+#intro{
+    min-height: 100vh;
+    background-image: url(../img/fundo.png);
+    background-repeat: no-repeat;
+    background-size: 315px;
+    background-position: center;
+    background-color: azure;
+}
+@media(min-width: 768px){
+    #intro {
+        background-size: 500px;
+    }
+}
+.banner {
+    width: 100%;
+    color: rgba(240, 255, 255, 0.774);
+    background-color: rgba(0, 0, 0, 0.568);
+    text-align: center;
+    font-family: "Eina";
+}
+.banner .title {
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: 2.8em;
+    font-family: "BebasNeue";
+    margin: 0;
+}
+.banner .subtitle {
+    font-size: 1.25em;
+}
+.text-primaria {
+    color: var(--color-primaria);
     font-family: "BebasNeue";
     font-weight: bold;
     text-transform: uppercase;
 }
-.bg-mine {
-    background-color: var(--color-mine);
+.bg-primaria {
+    background-color: var(--color-primaria);
 }
 .trabalho {
     padding: 0;
 }
-.lista li{
-    background-color: var(--color-mine);
+.lista .icone {
     color: white;
-    padding: 5px;
-    border-radius: 5px;
-    margin: 0 5px;
+    background-color: var(--color-primaria);
+}
+.lista .item {
+    display: flex;
+    align-items: center;
+}
+.lista .texto{
+    color: var(--color-primaria);
+    font-family: "BebasNeue";
+}
+.eina {
+    font-family: "Eina";
 }
