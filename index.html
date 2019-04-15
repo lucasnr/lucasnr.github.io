@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Lucas do Nascimento</title>
+    <title>Lucas do Nascimento - Desenvolvedor</title>
 
     <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
     <link rel="stylesheet" href="css/style.css">
@@ -15,33 +15,70 @@
 </head>
 
 <body>
-    <main class="main">
-        <section id="intro" class="d-flex align-items-end justify-content-center">
-            <div class="banner">
-                <h1 class="title">Lucas do Nascimento</h1>
-                <h5 class="subtitle">Desenvolvedor Full Stack</h5>
+    <header class="header bg-green text-center">
+        <h1 class="bebas-neue font-weight-bold text-shadow-sm mb-1">Lucas do Nascimento</h1>
+    </header>
+    <main class="main bg-white">
+        <section id="apresentacao">
+            <div class="container py-2">
+                <h2 class="titulo mb-2">Quem sou</h2>
+                <figure>
+                    <img src="img/me.jfif" alt="Minha foto" width="140" class="img-fluid rounded-circle foto">
+                    <figcaption class="eina">
+                        <p>Lucas do Nascimento Ribeiro, estudante do curso Técnico Integrado em Informática do
+                            <strong class="bg-green text-shadow-sm">Instituto Federal de Educação, Ciência e Tecnologia do Rio Grande do Norte.</strong>
+                        </p>
+                        <p>Sou desenvolvedor full-stack, possuo 4 anos de estudo em area de informática e conhecimentos aprofundados em 
+                            <strong class="bg-green text-shadow-sm">programação</strong> e tecnologias para criação de <strong class="bg-green text-shadow-sm">páginas web.</strong></p>
+                    </figcaption>
+                </figure>
             </div>
         </section>
-        <section id="trabalhos" class="jumbotron">
-            <div class="container p-0">
-                <div class="trabalho bg-light border rounded shadow-sm">
-                    <h2 class="title text-white bg-primaria px-3 py-1">
-                        Front-end
-                    </h2>
-                    <div class="p-3">
-                        <ul class="list-unstyled d-md-flex lista">
-                            <li class="item"><i class="icone fab fa-html5"></i><span class="texto">HTML 5</span></li>
-                            <li class="item"><i class="icone fab fa-css3-alt"></i></li>
-                            <li class="item"><i class="icone fab fa-sass"></i></li>
-                        </ul>
-                    </div>
+        <section id="conhecimentos">
+            <div class="container">
+                <div class="py-1">
+                    <h2 class="titulo mb-3">Com o que trabalho</h2>
+                    <h4 class="titulo">Front-end</h4>
+                    <ul class="lista row my-0 list-unstyled eina mx-auto">
+                        <li class="item col-md shadow-sm mr-0 mr-md-3">HTML5</li>
+                        <li class="item col-md shadow-sm mr-0 mr-md-3">CSS3</li>
+                        <li class="item col-md shadow-sm mr-0 mr-md-3">Sass</li>
+                        <li class="item col-md shadow-sm mr-0 mr-md-3">Bootstrap</li>
+                        <li class="item col-md shadow-sm mr-0 mr-md-3">JavaScript</li>
+                        <li class="item col-md shadow-sm mr-0">jQuery</li>
+                    </ul>
+                    <h4 class="titulo">Back-end</h4>
+                    <ul class="lista row my-0 list-unstyled eina mx-auto text-right text-md-left">
+                        <li class="item col-md shadow-sm mr-0 mr-md-3">Java 9 (Maven)</li>
+                        <li class="item col-md shadow-sm mr-0 mr-md-3">JSF 2.2 (PrimeFaces, PrettyFaces)</li>
+                        <li class="item col-md shadow-sm mr-0 mr-md-3">PHP 7</li>
+                    </ul>
+                    <h4 class="titulo">Persistência</h4>
+                    <ul class="lista row my-0 list-unstyled eina mx-auto">
+                        <li class="item col-md shadow-sm mr-0 mr-md-3">MySQL 8</li>
+                        <li class="item col-md shadow-sm mr-0 mr-md-3">PostgreSQL</li>
+                        <li class="item col-md shadow-sm mr-0 mr-md-3">Hibernate 5</li>
+                        <li class="item col-md shadow-sm mr-0 mr-md-3">PDO</li>
+                    </ul>
+                    <h4 class="titulo">Mobile</h4>
+                    <ul class="lista row my-0 list-unstyled eina mx-auto">
+                        <li class="item col-md shadow-sm mr-0 mr-md-3">Android</li>
+                    </ul>
                 </div>
-                <div class="trabalho border rounded shadow-sm p-3"></div>
-                <div class="trabalho border rounded shadow-sm p-3"></div>
-                <div class="trabalho border rounded shadow-sm p-3"></div>
             </div>
         </section>
     </main>
+
+    <footer class="footer eina m-0 py-3 px-2">
+        <h6 class="text-center">
+            &copy; 2017-2019 Lucas do Nascimento
+        </h6>
+        <ul class="d-flex justify-content-center my-0 mx-auto list-unstyled icones">
+            <li class="item facebook"><a href="https://www.facebook.com/lucasnascimento42"><i class="fab fa-facebook-f"></i></a></li>
+            <li class="item github"><a href="https://github.com/lucasnr/"><i class="fab fa-github"></i></a></li>
+            <li class="item linkedin"><a href="https://www.linkedin.com/in/lucas-nascimento-89a7b6145/"><i class="fab fa-linkedin-in"></i></a></li>
+        </ul>
+    </footer>
 </body>
 
 </html>
