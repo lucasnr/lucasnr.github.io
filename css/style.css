@@ -1,3 +1,4 @@
+/* Importação de fontes e criação de classes para uso delas */
 @font-face {
     font-family: "BebasNeue";
     src: url(../font/BebasNeueRegular.otf);
@@ -13,31 +14,42 @@
 .eina {
     font-family: "Eina";
 }
+
+/* Criação de classes utilitarias */
 :root{
-    /* --cor-green: rgb(11, 45, 194); */
-    --cor-green: rgb(15, 168, 84);
+    --cor-principal: rgb(15, 112, 168);
 }
-.bg-green{
-    background-color: var(--cor-green);
+
+.bg-principal{
+    background-color: var(--cor-principal);
     color: white;
 }
-.text-green {
-    color: var(--cor-green);
+
+.text-principal {
+    color: var(--cor-principal);
 }
-body {
-    overflow-x: hidden; 
-}
-.header {
-    border-bottom: 10px solid rgba(0, 0, 0, 0.137);
-}
-#apresentacao .foto {
-    shape-outside: border-box;
-    padding: 10px;
-    float: left;
-}
+
 .text-shadow-sm{
     text-shadow: -1px -1px 1px black;
 }
+
+/* Estilização padrão (reset) */
+body, html {
+    overflow-x: hidden;
+    padding: 0;
+}
+
+/* Estilização da página */
+section {
+    background-color: white;
+}
+
+.titulo {
+    color: var(--cor-principal);
+    font-family: "BebasNeue";
+    text-align: center;
+}
+
 h2.titulo {
     text-shadow: -1px -1px 1px black;
     font-weight: bold;
@@ -47,83 +59,53 @@ h2.titulo {
     position: relative;
     z-index: 2;
 }
+
+
 h2.titulo::before{
     content: " ";
     width: 105%;
     height: 100%;    
     position: absolute;
     z-index: -1;
-    background-color: var(--cor-green);
+    background-color: var(--cor-principal);
     transform: rotate(-4deg) translate(-50%, -6%);
     left: 50%;
 }
-.titulo {
-    color: var(--cor-green);
-    font-family: "BebasNeue";
-    text-align: center;
 
+#apresentacao .foto {
+    shape-outside: border-box;
+    padding: 10px;
+    float: left;
 }
+
 .main .lista .item {
-    color: var(--cor-green);
+    color: var(--cor-principal);
+    background-color: white;
     padding: .5em;
-    border-top: 1px solid var(--cor-green);
-    border-right: 1px solid var(--cor-green);
+    border-top: 1px solid var(--cor-principal);
+    border-right: 1px solid var(--cor-principal);
     margin-bottom: 15px;
     position: relative;
     z-index: 2;
 }
-.main .lista .item::before {
-    content: " ";
-    width: 0%;
-    height: 100%;
-    position: absolute;
-    background-color: var(--cor-green);
-    z-index: -1;
-    transition: 500ms cubic-bezier(0.075, 0.82, 0.165, 1);
-    top: 50%;
-    left: 0;
-    transform: translateY(-50%);
-}
-.main .lista .item:hover{
+
+.main .lista .item:nth-child(even){
     color: white;
-    font-weight: bold;
-}
-.main .lista .item:hover::before{
-    width: 100%;
-}
-section {
-    background-color: #EEE;
-}
-.container {
-    background-color: white;
+    background-color: var(--cor-principal);
 }
 
-.footer {
-    background-color: #f7f7f7;
-}
-
-.footer a{
-    text-decoration: none !important;
-}
-.footer .item {
-    width: fit-content;
-    display: inline-block;
-}
-.footer .icones a {
-    width: 50px;
-    height: 50px;
-    color: white;
-    font-size: 28px;
+.habilidades .item {
     display: flex;
-    align-items: center;
+    flex-direction: column;
     justify-content: center;
+    padding: 5px 10px;
+    border: 1px solid var(--cor-principal);
+    border-top: none;
+    border-left: none;
+    text-align: center;
+    margin: 1em 5px;
 }
-.footer .facebook{
-    background-color: #3B5998;
-}
-.footer .github {
-    background-color: #24292E;
-}
-.footer .linkedin {
-    background-color: #007bb5;
+
+.habilidades .item .icone{
+    margin-bottom: 10px;
 }

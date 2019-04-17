@@ -1,0 +1,32 @@
+.footer {
+    background-color: #f7f7f7;
+}
+
+.footer a{
+    text-decoration: none !important;
+}
+.footer .item {
+    width: fit-content;
+    display: inline-block;
+}
+.footer .icones a {
+    width: 50px;
+    height: 50px;
+    color: white;
+    font-size: 28px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.footer .facebook{
+    background-color: #3B5998;
+}
+.footer .github {
+    background-color: #24292E;
+}
+.footer .linkedin {
+    background-color: #007bb5;
+}
+.footer .gmail {
+    background-color: #DD4B39;
+}
