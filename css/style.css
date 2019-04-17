@@ -53,7 +53,7 @@ section {
 h2.titulo {
     text-shadow: -1px -1px 1px black;
     font-weight: bold;
-    width: fit-content;
+    display: inline-block;
     color: white; 
     margin: auto;
     position: relative;
