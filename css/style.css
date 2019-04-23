@@ -17,8 +17,7 @@
 
 /* Criação de classes utilitarias */
 :root{
-    --cor-principal: rgb(82, 78, 78);
-    --cor-secundaria: rgb(15, 112, 168);
+    --cor-principal: rgb(15, 112, 168);
 }
 
 .bg-principal{
@@ -61,7 +60,6 @@ h2.titulo {
     z-index: 2;
 }
 
-
 h2.titulo::before{
     content: " ";
     width: 105%;
@@ -80,23 +78,14 @@ h2.titulo::before{
 }
 
 .main .lista .item {
-    color: var(--cor-secundaria);
+    color: var(--cor-principal);
     background-color: white;
     padding: .5em;
-    border-top: 1px solid var(--cor-secundaria);
-    border-right: 1px solid var(--cor-secundaria);
+    border-top: 1px solid var(--cor-principal);
+    border-right: 1px solid var(--cor-principal);
     margin-bottom: 15px;
     position: relative;
     z-index: 2;
-}
-
-.main .lista .item:nth-child(even){
-    color: white;
-    background-color: var(--cor-principal);
-    border-bottom: 6px solid;
-    border-right: 0;
-    border-top: 0;
-    border-color: rgba(0, 0, 0, 0.3);
 }
 
 .habilidades .item {
