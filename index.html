@@ -8,8 +8,8 @@
     <title>Lucas do Nascimento - Desenvolvedor</title>
 
     <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/fonts.css">
     <link rel="stylesheet" href="css/style.css">
-    <link rel="stylesheet" href="css/header.css">
     <link rel="stylesheet" href="css/footer.css">
 
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.1/css/all.css"
@@ -17,19 +17,16 @@
 </head>
 
 <body>
-    <header class="header bg-principal text-center py-1">
-        <h1 class="bebas-neue font-weight-bold text-shadow-sm m-0">Lucas Nascimento</h1>
-    </header>
     <main class="main bg-white">
-        <section id="apresentacao" class="jumbotron rounded-0">
+        <section id="apresentacao" class="bg-white m-0">
             <div class="container p-0">
-                <div class="bg-white rounded py-4 px-3 shadow-sm">
-                    <div class="text-center">
-                        <h2 class="titulo mb-2">Quem sou</h2>
-                    </div>
+                <div class="bg-white rounded py-4 px-3">
+                    <h2 class="titulo mb-2 bebas-neue">Sobre mim</h2>
+
                     <figure>
-                        <img src="img/me.jfif" alt="Minha foto" width="140" class="img-fluid rounded-circle foto">
-                        <figcaption class="eina">
+                        <img src="img/me.jfif" alt="Foto de Lucas do Nascimento" width="170" class="img-fluid rounded-circle d-block mx-auto mb-2">
+
+                        <figcaption class="eina text-justify" style="font-size: 18px;">
                             <p>Olá, me chamo Lucas do Nascimento Ribeiro, estudante do curso Técnico Integrado em Informática do
                                 <strong>Instituto Federal de Educação, Ciência e Tecnologia do Rio Grande do Norte.</strong>
                             </p>
@@ -38,77 +35,84 @@
                             
                             <blockquote class="font-italic text-center">
                                 "Qualquer tolo consegue escrever código que um computador consiga entender. Bons programadores escrevem código que humanos entendem."
-                                <br><strong>-Martin Fowler</strong>
+                                <br>-Martin Fowler
                             </blockquote>
                         </figcaption>
                     </figure>
                 </div>
             </div>
         </section>
-        <section id="conhecimentos">
-            <div class="container">
-                <div class="py-1">
-                    <div class="text-center">
-                        <h2 class="titulo mb-3">Com o que trabalho</h2>
-                    </div>
-                    <h4 class="titulo text-secondary">Front-end</h4>
-                    <ul class="lista row my-0 list-unstyled eina mx-auto">
-                        <li class="item col-md shadow-sm mr-0 mr-md-3">HTML5</li>
-                        <li class="item col-md shadow-sm mr-0 mr-md-3">CSS3</li>
-                        <li class="item col-md shadow-sm mr-0 mr-md-3">Sass</li>
-                        <li class="item col-md shadow-sm mr-0 mr-md-3">Bootstrap 4</li>
-                        <li class="item col-md shadow-sm mr-0 mr-md-3">JavaScript</li>
-                        <li class="item col-md shadow-sm mr-0">jQuery</li>
-                    </ul>
-                    <h4 class="titulo text-secondary">Back-end</h4>
-                    <ul class="lista row my-0 list-unstyled eina mx-auto text-right text-md-left">
-                        <li class="item col-md shadow-sm mr-0 mr-md-3">Java 9</li>
-                        <li class="item col-md shadow-sm mr-0 mr-md-3">JSF 2.2</li>
-                        <li class="item col-md shadow-sm mr-0 mr-md-3">PHP 7</li>
-                    </ul>
-                    <h4 class="titulo text-secondary">Persistência</h4>
-                    <ul class="lista row my-0 list-unstyled eina mx-auto">
-                        <li class="item col-md shadow-sm mr-0 mr-md-3">MySQL 8</li>
-                        <li class="item col-md shadow-sm mr-0 mr-md-3">PostgreSQL</li>
-                        <li class="item col-md shadow-sm mr-0 mr-md-3">Hibernate 5</li>
-                        <li class="item col-md shadow-sm mr-0 mr-md-3">PDO</li>
-                    </ul>
-                    <h4 class="titulo text-secondary">Mobile</h4>
-                    <ul class="lista row my-0 list-unstyled eina mx-auto">
-                        <li class="item col-md shadow-sm mr-0 mr-md-3">Android</li>
-                    </ul>
-                </div>
+        <section id="conhecimentos" class="bg-principal">
+            <div class="container py-4">
+                <h2 class="titulo text-white mb-3 bebas-neue">Com o que trabalho</h2>
+
+                <h3 class="text-center text-white-75 bebas-neue">Front-end</h3>
+
+                <ul class="lista row my-0 list-unstyled eina mx-auto">
+                    <li class="item col-md shadow-sm mr-0 mr-md-3">HTML 5</li>
+                    <li class="item col-md shadow-sm mr-0 mr-md-3">CSS 3</li>
+                    <li class="item col-md shadow-sm mr-0 mr-md-3">Sass</li>
+                    <li class="item col-md shadow-sm mr-0 mr-md-3">Bootstrap 4</li>
+                    <li class="item col-md shadow-sm mr-0 mr-md-3">JavaScript</li>
+                    <li class="item col-md shadow-sm mr-0">jQuery</li>
+                </ul>
+                <h3 class="text-center text-white-75 bebas-neue">Back-end</h3>
+                <ul class="lista row my-0 list-unstyled eina mx-auto text-right text-md-left">
+                    <li class="item col-md shadow-sm mr-0 mr-md-3">Java 9</li>
+                    <li class="item col-md shadow-sm mr-0 mr-md-3">Python 3.0</li>
+                    <li class="item col-md shadow-sm mr-0 mr-md-3">Ruby</li>
+                    <li class="item col-md shadow-sm mr-0 mr-md-3">PHP 7</li>
+                </ul>
+                <h3 class="text-center text-white-75 bebas-neue">Persistência</h3>
+                <ul class="lista row my-0 list-unstyled eina mx-auto">
+                    <li class="item col-md shadow-sm mr-0 mr-md-3">MySQL 8</li>
+                    <li class="item col-md shadow-sm mr-0 mr-md-3">PostgreSQL</li>
+                    <li class="item col-md shadow-sm mr-0 mr-md-3">Neo4j</li>
+                </ul>
+                <h3 class="text-center text-white-75 bebas-neue">Mobile</h3>
+                <ul class="lista row my-0 list-unstyled eina mx-auto">
+                    <li class="item col-md shadow-sm mr-0 mr-md-3">Android Native</li>
+                </ul>
+
+
             </div>
         </section>
-        <section id="habilidades" class="jumbotron rounded-0 mb-0">
-            <div class="container p-2 p-md-4 shadow-sm rounded bg-white">
-                <div class="text-center">
-                    <h2 class="titulo my-1">Habilidades</h2>
-                </div>
-                <ul class="eina list-unstyled habilidades text-principal">
+        <section id="habilidades" class="m-0">
+            <div class="container p-2 p-md-4 rounded bg-white">
+                <h2 class="titulo my-1 bebas-neue">Habilidades</h2>
+
+                <ul class="eina list-unstyled habilidades">
                     <div class="row m-0">
-                        <li class="item col-md php">
+                        <li class="item col-md">
                             <i class="fab fa-php fa-4x icone m-0"></i>
-                            <span>Desenvolvimento em PHP com integração à banco de dados com <strong>PDO</strong></span>
+                            <span class="texto">Desenvolvimento em <strong>PHP</strong> com integração à banco de dados com <strong>PDO</strong></span>
                         </li>
-                        <li class="item col-md text-secondary border-secondary">
+                        <li class="item col-md">
                             <i class="fas fa-desktop fa-4x icone"></i>
                             <span class="texto">Criação de páginas web <strong>expositivas</strong> com layout <strong>responsivo</strong></span>
                         </li>
-                        <li class="item col-md text-success border-success">
+                        <li class="item col-md">
                             <i class="fab fa-android fa-5x icone"></i> 
-                            <span>Desenvolvimento de Aplicações Mobile para <strong>Android</strong></span>
+                            <span class="texto">Desenvolvimento de <strong>Aplicações Mobile</strong> para <strong>Android</strong></span>
                         </li>
-                        <li class="item col-md text-info border-info">
+                        
+                        <li class="item col-md">
                             <i class="fas fa-database fa-4x icone"></i>
-                            <span>Manutenção e criação de bancos de dados relacionais <strong>normalizados</strong></span>
+                            <span class="texto">Manutenção e criação de <strong>bancos de dados</strong> relacionais <strong>normalizados</strong></span>
                         </li>
                     </div>
 
                     <div class="row m-0">
-                        <li class="item col-md text-dark border-danger java">
-                            <i class="fab fa-java fa-5x icone text-danger"></i>
-                            <span class="texto">Desenvolvimento avançado em Java com a ferramenta <strong>Maven</strong> e frameworks JSF para banco de dados como <strong>Hibernate</strong> e para WEB como <strong>PrimeFaces</strong>, <strong>PrettyFaces</strong></span>
+                        <li class="item col-md">
+                            <i class="fab fa-java fa-6x icone"></i>
+                            <span class="texto">Desenvolvimento avançado em <strong>Java</strong> com a ferramenta <strong>Maven</strong> e frameworks como <strong>Hibernate,</strong> 
+                                <strong>PrimeFaces</strong> e <strong>PrettyFaces</strong></span>
+                        </li>
+                        
+                        <li class="item col-md">
+                            <i class="fab fa-python fa-6x icone"></i>
+                            <span class="texto">Desenvolvimento em <strong>Python</strong> juntamente ao framework <strong>Django</strong> para o desenvolvimento de plataformas e 
+                                sistemas WEB</span>
                         </li>
                     </div>
                 </ul>
@@ -116,10 +120,11 @@
         </section>
     </main>
 
-    <footer class="footer m-0 py-3 px-2 bg-white">
-        <h6 class="text-center">
-            Copyright&copy; 2017-2019 Lucas Nascimento
+    <footer class="footer m-0 pt-3 pb-1 px-2 bg-light">
+        <h6 class="text-center eina" style="font-size: 18px;">
+            &copy; 2017-2019 Lucas Nascimento
         </h6>
+
         <ul class="d-flex justify-content-center my-0 mx-auto list-unstyled icones">
             <li class="item facebook"><a target="_blank" href="https://www.facebook.com/lucasnascimento42"><i class="fab fa-facebook-f"></i></a></li>
             <li class="item github"><a target="_blank" href="https://github.com/lucasnr/"><i class="fab fa-github"></i></a></li>

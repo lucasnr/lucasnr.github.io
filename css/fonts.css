@@ -1,0 +1,18 @@
+@font-face {
+    font-family: "BebasNeue";
+    src: url(../font/BebasNeueRegular.otf);
+}
+
+.bebas-neue{
+    font-family: "BebasNeue" !important;
+    text-transform: uppercase;
+}
+
+@font-face {
+    font-family: "Eina";
+    src: url(../font/Eina.ttf);
+}
+
+.eina {
+    font-family: "Eina" !important;
+}

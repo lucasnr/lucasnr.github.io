@@ -1,36 +1,27 @@
-/* Importação de fontes e criação de classes para uso delas */
-@font-face {
-    font-family: "BebasNeue";
-    src: url(../font/BebasNeueRegular.otf);
-}
-.bebas-neue{
-    font-family: "BebasNeue";
-    text-transform: uppercase;
-}
-@font-face {
-    font-family: "Eina";
-    src: url(../font/Eina.ttf);
-}
-.eina {
-    font-family: "Eina";
-}
-
 /* Criação de classes utilitarias */
 :root{
-    --cor-principal: rgb(15, 112, 168);
+    --cor-principal: rgb(62, 130, 170);
 }
 
 .bg-principal{
-    background-color: var(--cor-principal);
-    color: white;
+    background-color: var(--cor-principal) !important;
+    color: white !important;
 }
 
 .text-principal {
-    color: var(--cor-principal);
+    color: var(--cor-principal) !important;
+}
+
+.text-white-75 {
+    color: rgba(255, 255, 255, 0.75) !important;
 }
 
 .text-shadow-sm{
-    text-shadow: -1px -1px 1px black;
+    text-shadow: -1px -1px 1px black !important;
+}
+
+.border-rounded {
+    border-radius: 500px;
 }
 
 /* Estilização padrão (reset) */
@@ -40,52 +31,27 @@ body, html {
 }
 
 /* Estilização da página */
-section {
-    background-color: white;
-}
 
 .titulo {
     color: var(--cor-principal);
-    font-family: "BebasNeue";
     text-align: center;
-}
-
-h2.titulo {
-    text-shadow: -1px -1px 1px black;
     font-weight: bold;
-    display: inline-block;
-    color: white; 
-    margin: auto;
-    position: relative;
-    z-index: 2;
+    font-size: 45px;
 }
 
-h2.titulo::before{
-    content: " ";
-    width: 105%;
-    height: 100%;    
-    position: absolute;
-    z-index: -1;
-    background-color: var(--cor-principal);
-    transform: rotate(-4deg) translate(-50%, -6%);
-    left: 50%;
-}
-
-#apresentacao .foto {
-    shape-outside: border-box;
-    padding: 10px;
-    float: left;
+.bg-principal .titulo {
+    text-shadow: -4px 4px rgba(0, 0, 0, 0.26);
 }
 
 .main .lista .item {
     color: var(--cor-principal);
     background-color: white;
-    padding: .5em;
-    border-top: 1px solid var(--cor-principal);
-    border-right: 1px solid var(--cor-principal);
+    padding: .5em 1em;
     margin-bottom: 15px;
     position: relative;
     z-index: 2;
+    border-radius: 500px;
+    font-weight: bold;
 }
 
 .habilidades .item {
@@ -93,23 +59,22 @@ h2.titulo::before{
     flex-direction: column;
     justify-content: center;
     padding: 5px 10px;
-    border: 1px solid var(--cor-principal);
+    border: 2px solid var(--cor-principal);
     border-top: none;
     border-left: none;
     text-align: center;
     margin: 1em 5px;
-    color: var(--cor-principal);
-}
-
-.habilidades .item.java strong {
-    color: var(--danger);
-}
-
-.habilidades .item.php {
-    color: #787CB5;
-    border-color: #787CB5;
 }
 
 .habilidades .item .icone{
     margin-bottom: 10px;
+    color: var(--cor-principal);
+}
+
+.habilidades .item strong {
+    color: var(--cor-principal);
+}
+
+.habilidades .item .texto {
+    font-size: 16px;
 }
