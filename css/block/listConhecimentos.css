@@ -1,0 +1,30 @@
+.listConhecimentos .listConhecimentos-titulo {
+    color: rgba(255, 255, 255, 0.75);
+    text-align: center;
+}
+
+.listConhecimentos .listConhecimentos-list {
+    list-style: none;
+    padding: 0;
+}
+
+.listConhecimentos .listConhecimentos-item {
+    color: var(--cor-principal);
+    background-color: white;
+    padding: .5em 1em;
+    margin-bottom: 15px;
+    position: relative;
+    z-index: 2;
+    border-radius: 500px;
+    font-weight: bold;
+}
+
+@media(min-width: 768px) {
+    .listConhecimentos .listConhecimentos-item {
+        margin-right: 1rem;
+    }
+
+    .listConhecimentos .listConhecimentos-item:last-child{
+        margin-right: 0;
+    }
+}

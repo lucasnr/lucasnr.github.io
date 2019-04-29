@@ -1,0 +1,30 @@
+.listHabilidades .listHabilidades-list {
+    list-style: none;
+    padding: 0;
+}
+
+.listHabilidades .listHabilidades-item {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 5px 10px;
+    border: 2px solid var(--cor-principal);
+    border-top: none;
+    border-left: none;
+    text-align: center;
+    margin-top: 1em;
+    width: 100%;
+}
+
+.listHabilidades .listHabilidades-icon {
+    margin-bottom: 10px;
+    color: var(--cor-principal);
+}
+
+.listHabilidades .listHabilidades-text {
+    font-size: 1.1em;
+}
+
+.listHabilidades .listHabilidades-item strong {
+    color: var(--cor-principal);
+}

@@ -3,17 +3,13 @@
     --cor-principal: rgb(62, 130, 170);
 }
 
-.bg-principal{
+.bgPrincipal{
     background-color: var(--cor-principal) !important;
     color: white !important;
 }
 
 .text-principal {
     color: var(--cor-principal) !important;
-}
-
-.text-white-75 {
-    color: rgba(255, 255, 255, 0.75) !important;
 }
 
 .text-shadow-sm{
@@ -32,50 +28,22 @@ body, html {
 
 /* Estilização da página */
 
-.titulo {
+.tituloPrincipal {
     color: var(--cor-principal);
     text-align: center;
     font-weight: bold;
     font-size: 45px;
 }
 
-.bg-principal .titulo {
+.bgPrincipal .tituloPrincipal {
+    color: white;
     text-shadow: -4px 4px rgba(0, 0, 0, 0.26);
 }
 
-.main .lista .item {
-    color: var(--cor-principal);
-    background-color: white;
-    padding: .5em 1em;
-    margin-bottom: 15px;
-    position: relative;
-    z-index: 2;
-    border-radius: 500px;
-    font-weight: bold;
+#minhaFoto {
+    width: 170px;
 }
 
-.habilidades .item {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    padding: 5px 10px;
-    border: 2px solid var(--cor-principal);
-    border-top: none;
-    border-left: none;
-    text-align: center;
-    margin-top: 1em;
-    width: 100%;
-}
-
-.habilidades .item .icone{
-    margin-bottom: 10px;
-    color: var(--cor-principal);
-}
-
-.habilidades .item strong {
-    color: var(--cor-principal);
-}
-
-.habilidades .item .texto {
-    font-size: 16px;
+.textoPrimario {
+    font-size: 20px;
 }
