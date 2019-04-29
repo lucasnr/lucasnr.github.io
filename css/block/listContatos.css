@@ -1,14 +1,16 @@
-.footer a{
-    text-decoration: none !important;
+.listContatos-lista {
+    list-style: none;
+    padding: 0;
 }
 
-.footer .item {
+.listContatos .listContatos-item {
     width: fit-content;
     display: inline-block;
     border-bottom: 8px solid rgba(0, 0, 0, .25);    
 }
 
-.footer .icones a {
+.listContatos a {
+    text-decoration: none !important;
     width: 50px;
     height: 50px;
     color: white;
@@ -18,18 +20,18 @@
     justify-content: center;
 }
 
-.footer .facebook{
+.listContatos .facebook{
     background-color: #3B5998;
 }
 
-.footer .github {
+.listContatos .github {
     background-color: #24292E;
 }
 
-.footer .linkedin {
+.listContatos .linkedin {
     background-color: #007bb5;
 }
 
-.footer .gmail {
+.listContatos .gmail {
     background-color: #DD4B39;
 }
