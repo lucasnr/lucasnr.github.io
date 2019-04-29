@@ -3,7 +3,7 @@
     --cor-principal: rgb(62, 130, 170);
 }
 
-.bgPrincipal{
+.bg-principal{
     background-color: var(--cor-principal) !important;
     color: white !important;
 }
@@ -35,7 +35,7 @@ body, html {
     font-size: 45px;
 }
 
-.bgPrincipal .tituloPrincipal {
+.bg-principal .tituloPrincipal {
     color: white;
     text-shadow: -4px 4px rgba(0, 0, 0, 0.26);
 }
