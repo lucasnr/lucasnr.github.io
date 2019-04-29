@@ -63,7 +63,8 @@ body, html {
     border-top: none;
     border-left: none;
     text-align: center;
-    margin: 1em 5px;
+    margin-top: 1em;
+    width: 100%;
 }
 
 .habilidades .item .icone{
