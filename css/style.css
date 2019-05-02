@@ -20,19 +20,13 @@
     border-radius: 500px;
 }
 
-/* Estilização padrão (reset) */
-body, html {
-    overflow-x: hidden;
-    padding: 0;
-}
-
 /* Estilização da página */
 
 .tituloPrincipal {
     color: var(--cor-principal);
     text-align: center;
     font-weight: bold;
-    font-size: 45px;
+    font-size: 3em;
 }
 
 .bg-principal .tituloPrincipal {
@@ -45,5 +39,11 @@ body, html {
 }
 
 .textoPrimario {
-    font-size: 20px;
+    font-size: 1.4em;
+}
+
+@media(min-width: 1200px){
+    html {
+        font-size: 1.15em;
+    }
 }
