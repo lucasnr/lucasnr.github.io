@@ -21,10 +21,6 @@
     color: var(--cor-principal);
 }
 
-.listHabilidades .listHabilidades-text {
-    font-size: 1.1em;
-}
-
 .listHabilidades .listHabilidades-item strong {
     color: var(--cor-principal);
 }
