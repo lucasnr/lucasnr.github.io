@@ -16,3 +16,12 @@
 .eina {
     font-family: "Eina" !important;
 }
+
+@font-face {
+    font-family: "Poppins";
+    src: url(../font/PoppinsRegular.otf);
+}
+
+.poppins {
+    font-family: "Poppins" !important;
+}
