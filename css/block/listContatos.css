@@ -1,4 +1,4 @@
-.listContatos-lista {
+.listContatos .listContatos-list {
     list-style: none;
     padding: 0;
 }
@@ -6,32 +6,34 @@
 .listContatos .listContatos-item {
     width: fit-content;
     display: inline-block;
-    border-bottom: 8px solid rgba(0, 0, 0, .25);    
+    border-radius: 50%;
+    transition: 200ms ease-in-out;
+}
+
+.listContatos .listContatos-item:hover {
+    box-shadow: 8px 0px #CCC;
+    color: white;
+}
+
+.listContatos .listContatos-item.github:hover{
+    background-color: #24292E;
+}
+
+.listContatos .listContatos-item.linkedin:hover{
+    background-color: #007bb5;
+}
+
+.listContatos .listContatos-item.gmail:hover{
+    background-color: #DD4B39;
 }
 
 .listContatos a {
     text-decoration: none !important;
     width: 50px;
     height: 50px;
-    color: white;
     font-size: 28px;
     display: flex;
     align-items: center;
     justify-content: center;
-}
-
-.listContatos .facebook{
-    background-color: #3B5998;
-}
-
-.listContatos .github {
-    background-color: #24292E;
-}
-
-.listContatos .linkedin {
-    background-color: #007bb5;
-}
-
-.listContatos .gmail {
-    background-color: #DD4B39;
+    color: inherit;
 }
