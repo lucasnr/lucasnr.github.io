@@ -4,21 +4,28 @@
 }
 
 .listHabilidades .listHabilidades-item {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    padding: 5px 10px;
-    border: 2px solid var(--cor-principal);
-    border-top: none;
-    border-left: none;
+    padding: 0 10px;
     text-align: center;
-    margin-top: 1em;
     width: 100%;
+    margin: 1em 0;
 }
 
 .listHabilidades .listHabilidades-icon {
-    margin-bottom: 10px;
-    color: var(--cor-principal);
+    width: 1.5em;
+    height: 1.5em;
+    margin: 5px auto;
+    padding: .25em;
+    border-radius: 50%;
+    background-color: var(--cor-principal);
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.listHabilidades .listHabilidades-title {
+    font-size: 1.25em;
+    font-weight: bold;
 }
 
 .listHabilidades .listHabilidades-item strong {
