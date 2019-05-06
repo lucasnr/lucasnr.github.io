@@ -3,12 +3,12 @@
     --cor-principal: rgb(62, 130, 170);
 }
 
-.bg-principal{
+.bg-main{
     background-color: var(--cor-principal) !important;
     color: white !important;
 }
 
-.text-principal {
+.text-main {
     color: var(--cor-principal) !important;
 }
 
@@ -22,14 +22,14 @@
 
 /* Estilização da página */
 
-.tituloPrincipal {
+.mainTitle {
     color: var(--cor-principal);
     text-align: center;
     font-weight: bold;
     font-size: 3em;
 }
 
-.bg-principal .tituloPrincipal {
+.bg-main .mainTitle {
     color: white;
     text-shadow: -4px 4px rgba(0, 0, 0, 0.26);
 }
