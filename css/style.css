@@ -22,24 +22,20 @@
 
 /* Estilização da página */
 
-.mainTitle {
+.main-title {
     color: var(--cor-principal);
     text-align: center;
     font-weight: bold;
     font-size: 3em;
 }
 
-.bg-main .mainTitle {
+.bg-main .main-title {
     color: white;
     text-shadow: -4px 4px rgba(0, 0, 0, 0.26);
 }
 
 #minhaFoto {
     width: 170px;
-}
-
-.textoPrimario {
-    font-size: 1.4em;
 }
 
 @media(min-width: 1200px){
