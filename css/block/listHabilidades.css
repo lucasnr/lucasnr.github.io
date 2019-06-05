@@ -3,8 +3,19 @@
     padding: 0;
 }
 
+.listHabilidades .listHabilidades-col{
+    margin: 1.8em 0;
+}
+
+@media(min-width: 1428px){
+    .listHabilidades .listHabilidades-col{
+        flex: 0 0 16.666667%;
+        max-width: 16.666667%;
+    }
+}
+
 .listHabilidades .listHabilidades-item {
-    padding: 0 1.5rem;
+    padding: 0 1rem;
     text-align: left;
     width: 100%;
     height: 100%;
@@ -12,25 +23,14 @@
     position: relative;
     margin: 0;
     z-index: 1;
-}
-
-.listHabilidades .listHabilidades-item::before {
-    content: " ";
-    position: absolute;
-    width: 95%;
-    height: 80%;
     border: 3px solid var(--cor-principal);
     border-radius: 4px;
-    bottom: 0;
-    left: 50%;
-    transform: translateX(-50%);
-    z-index: -1;
 }
 
 .listHabilidades .listHabilidades-icon {
     width: 1.5em;
     height: 1.5em;
-    margin: 5px 5px 10px auto;
+    margin: -3rem 5px 10px auto;
     padding: .25em;
     border-radius: 50%;
     background-color: var(--cor-principal);
@@ -42,12 +42,12 @@
 
 .listHabilidades .listHabilidades-title {
     font-size: 1.25em;
-    font-weight: bold;
+    font-weight: 500;
     position: relative;
     background-color: var(--cor-principal);
     color: white;
-    margin-left: calc(-1em - 5px);
     padding: 10px 1em;
+    margin-left: calc(-1em - 7px);
 }
 
 .listHabilidades .listHabilidades-title::before {
