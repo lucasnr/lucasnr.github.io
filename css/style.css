@@ -1,11 +1,7 @@
-/* Criação de classes utilitarias */
+/* Criação de variaveis */
 
 :root {
     --cor-principal: rgb(62, 130, 170);
-}
-
-.border-rounded {
-    border-radius: 500px;
 }
 
 /* Estilização da página */
