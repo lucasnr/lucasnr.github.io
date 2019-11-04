@@ -1,0 +1,11 @@
+.rodape {
+    background-color: #343A40;
+    margin: 0;
+    padding: 1em .5em;
+}
+
+.rodape .rodape-text {
+    color: rgba(255, 255, 255, .5);
+    text-align: center;
+    margin: 0;
+}

@@ -1,19 +1,7 @@
 /* Criação de classes utilitarias */
-:root{
+
+:root {
     --cor-principal: rgb(62, 130, 170);
-}
-
-.bg-main{
-    background-color: var(--cor-principal) !important;
-    color: white !important;
-}
-
-.text-main {
-    color: var(--cor-principal) !important;
-}
-
-.text-shadow-sm{
-    text-shadow: -1px -1px 1px black !important;
 }
 
 .border-rounded {
@@ -22,23 +10,33 @@
 
 /* Estilização da página */
 
-.main-title {
-    color: var(--cor-principal);
-    text-align: center;
-    font-weight: bold;
-    font-size: 3em;
+.apresentacao {
+    background-image: url(../../img/binary-rain.png);
+    background-repeat: repeat-x;
+    background-size: 205px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 0;
+    min-height: 100vh;
 }
 
-.bg-main .main-title {
+.meus-conhecimentos {
+    background-color: var(--cor-principal);
+}
+
+.section-title {
+    font-size: 3em;
+    font-weight: 900;
+    text-align: center;
+}
+
+.meus-conhecimentos .section-title {
     color: white;
     text-shadow: -4px 4px rgba(0, 0, 0, 0.26);
 }
 
-#minhaFoto {
-    width: 200px;
-}
-
-@media(min-width: 1200px){
+@media(min-width: 1200px) {
     html {
         font-size: 1.15em;
     }

@@ -1,0 +1,22 @@
+.meus-dados {
+    text-align: center;
+    padding: 1.5em;
+}
+
+.meus-dados .meus-dados__imagem {
+    display: inline-block;
+    height: auto;
+    max-width: 100%;
+    margin-bottom: .75em;
+    width: 200px;
+}
+
+.meus-dados .meus-dados__nome {
+    color: var(--cor-principal);
+    margin: 0;
+}
+
+.meus-dados .meus-dados__cargo {
+    color: #6C757D;
+    font-weight: 300;
+}

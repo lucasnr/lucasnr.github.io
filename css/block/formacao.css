@@ -1,0 +1,16 @@
+.formacao {
+    max-width: 442px;
+}
+
+.formacao .formacao__nome {
+    font-weight: 900;
+    margin-bottom: 1.25em;
+    text-transform: uppercase;
+}
+
+.formacao .formacao__item {
+    color: #6C757D;
+    font-weight: 300;
+    margin: 0;
+    text-align: justify;
+}

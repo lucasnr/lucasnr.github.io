@@ -1,33 +1,41 @@
-.listHabilidades .listHabilidades-list {
-    list-style: none;
+.habilidades {
+    padding: .5em 15px;
+}
+
+.habilidades .habilidades__list {
+    align-items: stretch;
+    margin: 0;
     padding: 0;
 }
 
-.listHabilidades .listHabilidades-col{
-    margin: 1.8em 0;
+.habilidades .habilidades__col{
+    margin: 2em 0;
+}
+
+.habilidades .habilidades__col {
+    padding-bottom: 0;
+    padding-top: 0;
 }
 
 @media(min-width: 1428px){
-    .listHabilidades .listHabilidades-col{
+    .habilidades .habilidades__col{
         flex: 0 0 16.666667%;
         max-width: 16.666667%;
     }
 }
 
-.listHabilidades .listHabilidades-item {
-    padding: 0 1rem;
-    text-align: left;
-    width: 100%;
-    height: 100%;
-    margin: 1em 0;
-    position: relative;
-    margin: 0;
-    z-index: 1;
+.habilidades .habilidades__item {
     border: 3px solid var(--cor-principal);
     border-radius: 4px;
+    height: 100%;
+    margin: 0;
+    padding: 0 1rem;
+    position: relative;
+    width: 100%;
+    z-index: 1;
 }
 
-.listHabilidades .listHabilidades-icon {
+.habilidades .habilidades__item__icon {
     width: 1.5em;
     height: 1.5em;
     margin: -3rem 5px 10px auto;
@@ -40,7 +48,7 @@
     justify-content: center;
 }
 
-.listHabilidades .listHabilidades-title {
+.habilidades .habilidades__item__title {
     font-size: 1.25em;
     font-weight: 500;
     position: relative;
@@ -50,7 +58,7 @@
     margin-left: calc(-1em - 7px);
 }
 
-.listHabilidades .listHabilidades-title::before {
+.habilidades .habilidades__item__title::before {
     content: " ";
     position: absolute;
     z-index: 1;
@@ -63,6 +71,6 @@
     left: 0;
 }
 
-.listHabilidades .listHabilidades-item span {
+.habilidades .habilidades__item span {
     color: var(--cor-principal);
 }
