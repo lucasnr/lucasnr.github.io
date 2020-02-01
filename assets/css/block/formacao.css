@@ -1,0 +1,12 @@
+.formacao {
+  max-width: 442px; }
+  .formacao .formacao__nome {
+    font-weight: bold;
+    margin-bottom: 1.25em;
+    text-transform: uppercase; }
+  .formacao .formacao__item {
+    color: #6C757D;
+    font-weight: 300;
+    text-align: justify; }
+
+/*# sourceMappingURL=formacao.css.map */

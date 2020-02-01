@@ -1,0 +1,25 @@
+.conhecimentos .conhecimentos__title {
+  color: rgba(255, 255, 255, 0.75);
+  font-family: 'BebasNeue';
+  text-align: center;
+  text-transform: uppercase; }
+.conhecimentos .conhecimentos__list {
+  list-style: none;
+  margin: 0 auto;
+  padding: 0; }
+.conhecimentos .conhecimentos__list__item {
+  background-color: white;
+  border-radius: 500px;
+  color: #3E82AA;
+  font-weight: bold;
+  margin-bottom: 15px;
+  padding: .5em 1em;
+  position: relative;
+  z-index: 2; }
+@media (min-width: 768px) {
+  .conhecimentos .conhecimentos__list__item {
+    margin-right: 1rem; }
+  .conhecimentos .conhecimentos__list__item:last-child {
+    margin-right: 0; } }
+
+/*# sourceMappingURL=conhecimentos.css.map */
