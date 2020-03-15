@@ -1,0 +1,55 @@
+html {
+  scroll-behavior: smooth;
+}
+
+body,
+input,
+button {
+  font-family: 'Overpass';
+}
+
+* {
+  box-sizing: border-box;
+  outline: none;
+}
+
+ul {
+  list-style: none;
+  margin: 0px;
+  padding: 0px;
+}
+
+button {
+  cursor: pointer;
+}
+
+.main {
+  color: #343434;
+  max-width: 900px;
+  $padding-x: 1.25rem;
+  padding-left: $padding-x;
+  padding-right: $padding-x;
+  padding-bottom: 2rem;
+
+  .section {
+    padding: 2rem 0px 3rem 0px;
+    font-size: 1.15rem;
+
+    .section__title {
+      font-family: 'Saira Extra Condensed';
+      font-size: 3rem;
+      margin: 1rem 0px 2rem 0px;
+      text-transform: uppercase;
+    }
+
+    & + .section {
+      border-top: 1px solid #eee;
+    }
+
+    p {
+      line-height: 1.5;
+    }
+  }
+}
+
+@import './sidebar', './about', './skills', './education', './footer';

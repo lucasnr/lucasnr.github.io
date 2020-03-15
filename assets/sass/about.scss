@@ -1,0 +1,75 @@
+@import './colors';
+
+.about {
+  .about__name {
+    font-family: 'Saira Extra Condensed';
+    font-size: 3.75rem;
+    font-weight: bold;
+    line-height: 0.875;
+    margin: 0px;
+    text-transform: uppercase;
+
+    @media screen and(min-width: 768px) {
+      font-size: 5rem;
+    }
+  }
+
+  .about__profession {
+    border-bottom: 1px solid #eee;
+    font-family: 'Saira Extra Condensed';
+    font-size: 1.5rem;
+    font-weight: normal;
+    margin: 0px;
+    padding: 0.5rem 0px;
+    text-transform: uppercase;
+  }
+
+  .about__links {
+    display: flex;
+
+    .about__links__item {
+      $size: 3.5rem;
+      align-items: center;
+      background-color: $background-color;
+      border-radius: 50%;
+      color: #fff;
+      display: flex;
+      font-size: 2rem;
+      justify-content: center;
+      height: $size;
+      margin-right: 0.75rem;
+      transition: background-color 0.3s ease;
+      width: $size;
+
+      &.about__links__item--linkedin:hover {
+        background-color: #007bb5;
+      }
+      &.about__links__item--github:hover {
+        background-color: #333;
+      }
+      &.about__links__item--whatsapp:hover {
+        background-color: #25d366;
+      }
+      &.about__links__item--gmail:hover {
+        background-color: #ea4335;
+      }
+      a {
+        display: flex;
+        padding: 0.5rem;
+
+        i {
+          display: flex;
+        }
+      }
+    }
+  }
+
+  a {
+    color: inherit;
+    text-decoration: none;
+  }
+
+  strong {
+    color: $primary-color;
+  }
+}

@@ -1,0 +1,12 @@
+@import './colors';
+
+.skills {
+  .skills__list {
+    line-height: 1.5;
+
+    i {
+      font-size: 1.25rem;
+      color: $primary-color;
+    }
+  }
+}

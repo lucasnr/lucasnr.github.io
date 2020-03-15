@@ -1,0 +1,29 @@
+@import './colors';
+
+.education {
+  & + .education {
+    margin-top: 2.5rem;
+  }
+
+  .education__period {
+    color: #888;
+    display: block;
+    font-size: 0.875rem;
+    margin-bottom: 0.5rem;
+  }
+
+  .education__title {
+    font-size: 1.25rem;
+    font-weight: bold;
+    margin: 0px;
+    text-transform: uppercase;
+  }
+
+  .education__description {
+    color: $primary-color;
+    font-size: 1rem;
+    font-weight: normal;
+    margin: 0px;
+    text-transform: uppercase;
+  }
+}
