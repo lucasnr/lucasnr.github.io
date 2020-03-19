@@ -4,9 +4,19 @@
   .skills__list {
     line-height: 1.5;
 
-    i {
-      font-size: 1.25rem;
-      color: $primary-color;
+    .skills__list__item {
+      align-items: center;
+      display: flex;
+      line-height: 1.75;
+
+      > svg {
+        $size: 1.275rem;
+        color: $primary-color;
+        height: $size;
+        margin-bottom: 0.25rem;
+        margin-right: 0.25rem;
+        width: $size;
+      }
     }
   }
 }

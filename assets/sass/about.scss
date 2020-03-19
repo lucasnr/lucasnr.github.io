@@ -57,8 +57,10 @@
         display: flex;
         padding: 0.5rem;
 
-        i {
-          display: flex;
+        svg {
+          $svg-size: 2rem;
+          height: $svg-size;
+          width: $svg-size;
         }
       }
     }
