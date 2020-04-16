@@ -27,7 +27,6 @@ $sidebar-width: 15rem;
     border: 0.5rem solid rgba($color: #fff, $alpha: 0.2);
     object-fit: cover;
     object-position: center;
-    max-width: 245px;
     width: #{$sidebar-width / 1.5};
   }
 

@@ -1,5 +1,9 @@
 html {
   scroll-behavior: smooth;
+
+  @media (min-width: 2052px) {
+    font-size: 32px;
+  }
 }
 
 body,
@@ -30,15 +34,15 @@ button {
 
 .main {
   color: #343434;
-  max-width: 900px;
+  max-width: 56.25rem;
+  padding-bottom: 2rem;
   $padding-x: 1.25rem;
   padding-left: $padding-x;
   padding-right: $padding-x;
-  padding-bottom: 2rem;
 
   .section {
-    padding: 2rem 0px 3rem 0px;
     font-size: 1.15rem;
+    padding: 2rem 0px 3rem 0px;
 
     .section__title {
       font-family: 'Saira Extra Condensed';
