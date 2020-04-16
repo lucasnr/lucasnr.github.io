@@ -24,11 +24,11 @@ $sidebar-width: 15rem;
 
   .sidebar__avatar {
     border-radius: 50%;
-    border: 8px solid rgba($color: #fff, $alpha: 0.2);
+    border: 0.5rem solid rgba($color: #fff, $alpha: 0.2);
     object-fit: cover;
     object-position: center;
     max-width: 245px;
-    width: calc(#{$sidebar-width} / 1.5);
+    width: #{$sidebar-width / 1.5};
   }
 
   .sidebar__navbar {
@@ -39,14 +39,14 @@ $sidebar-width: 15rem;
       display: flex;
       flex-direction: column;
 
-      .sidebar__nav__item {
+      li {
         display: flex;
       }
 
-      .sidebar__nav__link {
+      li > a {
+        color: rgba($color: #fff, $alpha: 0.5);
         font-size: 1.25rem;
         font-weight: bold;
-        color: rgba($color: #fff, $alpha: 0.5);
         padding: 0.75rem 1.25rem;
         text-decoration: none;
         text-transform: uppercase;

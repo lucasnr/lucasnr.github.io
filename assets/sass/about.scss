@@ -20,6 +20,7 @@
     font-size: 1.5rem;
     font-weight: normal;
     margin: 0px;
+    margin-bottom: 1rem;
     padding: 0.5rem 0px;
     text-transform: uppercase;
   }
@@ -53,22 +54,16 @@
       &.about__links__item--gmail:hover {
         background-color: #ea4335;
       }
+
       a {
         display: flex;
         padding: 0.5rem;
 
-        svg {
-          $svg-size: 2rem;
-          height: $svg-size;
-          width: $svg-size;
+        i {
+          display: flex;
         }
       }
     }
-  }
-
-  a {
-    color: inherit;
-    text-decoration: none;
   }
 
   strong {
